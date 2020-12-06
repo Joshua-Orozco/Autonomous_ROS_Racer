@@ -1,0 +1,9 @@
+<launch>
+  <include file="$(find autocar)/launch/autocar_sub.launch"/>
+  <node pkg ="autocar"
+        type="publisher.py"
+        name="pub"
+        output="screen">
+  </node>
+</launch>
+
